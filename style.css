@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+body {
+    background: #07081A;
+}
+
+.container {
+
+    gap: 88px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerConteiner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.logoImg {
+    width: 32px;
+    height: 36px;
+}
+
+.headerLogoName {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.NavigationHome {
+    color: #B968DE;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.headerNavigation {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.profileImg {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #9100D3;
+}
+
+/* main-------------------------------------------------------------------------------- */
+
+.mainSectionFirstContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.mainFirstSection {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 52px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.firstSectionParagraph {
+    color: #C0C0C0;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.firstSectionButton {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 8px;
+    background: #9100D3;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.imgsDivContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.mainSecondSection {
+    display: flex;
+
+    gap: 90px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    max-width: 256px;
+    width: 100%;
+}
+
+.thirdSectionParagraph {
+    color: #C0C0C0;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 256px;
+    width: 100%;
+
+}
+
+.TextualSectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px;
+}
+
+.thirdSectionDivs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+}
+
+/* footer------------------------------ */
+
+.footerSpan {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.footerIcons {
+    width: 24px;
+    height: 24px;
+}
+
+.iconsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0px;
+    border-top: 1px solid #261C51;
+}
